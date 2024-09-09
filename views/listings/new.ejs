@@ -17,12 +17,13 @@
         </div>
         <div class="mb-3">
             <label for="image" class="form-label">Image Link</label>
-            <input name="listing[image]" placeholder="Enter Your Image URL/Link" class="form-control">
+            <input name="listing[image]" placeholder="Enter Your Image URL/Link - If you don't add any image then we will use default image" class="form-control">
+            <div class="valid-feedback">We recommend to add your image for transparency</div>
         </div>
         <div class="row">
             <div class="mb-3 col-md-4">
                 <label for="price" class="form-label">Price</label>
-                <input name="listing[price]" placeholder="1200" type="number" class="form-control" required>
+                <input name="listing[price]" placeholder="1200" class="form-control" required>
                 <div class="invalid-feedback">Price should be valid</div>
             </div>
             <div class="mb-3 col-md-8">
